@@ -1,5 +1,7 @@
 //Time Complexity : O(nlogn)
-//Space Complexity : constant
+//Space Complexity : no extra space, only for function calls
+//In place for linked List
+//Stable
 ListNode* merge(ListNode* A, ListNode* B){
     ListNode* temp =new ListNode(0);
     ListNode* ans=temp;
